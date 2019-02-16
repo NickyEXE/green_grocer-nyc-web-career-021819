@@ -65,6 +65,7 @@ end
 
 def apply_clearance(cart)
   # code here
+	cart.each do |key, valset
 end
 
 def checkout(cart, coupons)
