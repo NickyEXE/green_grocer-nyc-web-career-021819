@@ -76,5 +76,5 @@ def checkout(cart, coupons)
   # code here
 	coupcart = apply_coupons(cart,coupons)
 	clearcart = apply_clearance(coupcart)
-	clearcart
+	puts clearcart
 end
