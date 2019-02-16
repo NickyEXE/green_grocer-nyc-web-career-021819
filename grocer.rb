@@ -78,4 +78,3 @@ def checkout(cart, coupons)
 	clearcart = apply_clearance(coupcart)
 	clearcart
 end
-checkout(items,coupons)
