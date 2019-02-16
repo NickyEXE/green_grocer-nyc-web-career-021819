@@ -75,7 +75,9 @@ end
 def checkout(cart, coupons)
   # code here
 	clearcart = apply_clearance(apply_coupons(consolidate_cart(cart),coupons))
-	puts clearcart
+	total = 0
+	clearcart.each do |item,keyvals|
+		binding.pry
 end
 
 checkout(items,coupons)
