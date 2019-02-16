@@ -68,6 +68,7 @@ def apply_clearance(cart)
 	cart.each do |key, keyvals|
 		if keyvals[:clearance]
 			binding.pry
+		end
 end
 
 def checkout(cart, coupons)
