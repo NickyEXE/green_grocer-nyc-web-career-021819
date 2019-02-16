@@ -78,6 +78,7 @@ def checkout(cart, coupons)
 	total = 0
 	clearcart.each do |item,keyvals|
 		binding.pry
+	end
 end
 
 checkout(items,coupons)
