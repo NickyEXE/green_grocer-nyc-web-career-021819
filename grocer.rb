@@ -77,3 +77,4 @@ def checkout(cart, coupons)
 	newcart = apply_clearance(apply_coupons(cart,coupons))
 	binding.pry
 end
+checkout(items,coupons)
