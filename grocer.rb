@@ -67,7 +67,7 @@ def apply_clearance(cart)
   # code here
 	cart.each do |key, keyvals|
 		if keyvals[:clearance]
-			binding.pry
+			keyvals[:price] = keyvals[:price] - ((0.2)*keyvals[:price])
 		end
 	end
 end
