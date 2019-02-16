@@ -74,5 +74,5 @@ end
 
 def checkout(cart, coupons)
   # code here
-	newcart = apply_clearance()
+	newcart = apply_clearance(apply_coupons(cart,coupons))
 end
