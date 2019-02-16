@@ -79,7 +79,8 @@ def checkout(cart, coupons)
 	clearcart.each do |item,keyvals|
 		total += (keyvals[:price]*keyvals[:count])
 	end
-	binding.pry
+	if total > 100
+		total = total - (total*0.1)
 end
 
 checkout(items,coupons)
